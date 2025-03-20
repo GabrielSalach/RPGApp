@@ -14,6 +14,7 @@ abstract interface class ICharacterRepository {
     Future<int> Charisma();
 }
 
+
 class FakeCharacterRepository implements ICharacterRepository {
   @override
   Future<String> Name() async => "Test Hero";
