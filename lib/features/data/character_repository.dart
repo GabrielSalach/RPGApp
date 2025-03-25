@@ -21,11 +21,11 @@ class FakeCharacterRepository implements ICharacterRepository {
 
   @override
   Future<String> Backstory() async =>
-      "Un guerrier légendaire qui a sauvé le royaume des ténèbres. ET QUI FAIT UN GROS CACA";
+      "Un guerrier légendaire qui a sauvé le royaume des ténèbres.";
 
   @override
   Future<String> ImageURL() async =>
-      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/34f536ea-ac3a-4186-abd6-1fd58c9d1a9c/dhg19pn-d7de4e72-690a-4e27-99c1-5dec32ed9ac3.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM0ZjUzNmVhLWFjM2EtNDE4Ni1hYmQ2LTFmZDU4YzlkMWE5Y1wvZGhnMTlwbi1kN2RlNGU3Mi02OTBhLTRlMjctOTljMS01ZGVjMzJlZDlhYzMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.6KU40LNnYmwbX98DmMK5KtQLu1VBCsOSZTZCKLySMBg";
+      "https://cdn-icons-png.flaticon.com/512/2332/2332589.png";
 
   @override
   Future<int> HitPoints() async => 100;
